@@ -1,0 +1,58 @@
+.box2
+{
+    display: flex;
+    background-color:black;
+    width: 100%;
+    top:0;
+    position: sticky;
+}
+ul
+{
+    display: flex;
+}
+li
+{
+    padding-right: 120px;
+    font-size: 40px;
+    list-style-type: none;
+}
+a
+{
+    color:white;
+    text-decoration: none;   
+}
+a:hover
+{
+    color:rgb(201, 58, 82);
+    font-size:42px ;
+}
+.box1
+{
+    background-color: pink;
+    height: 400px; 
+    text-align: center;  
+}
+.box1 p
+{
+    color: aliceblue;
+    font-size:30px;
+    
+}
+@media only screen and (max-width: 600px)
+{
+    body {
+        background-color:aqua;
+    }
+    ul {
+        display: inline;
+       text-align: center;
+    }
+    li 
+    {
+        text-align: center;
+        padding:12px;
+    }
+    a:hover{
+        color:pink;
+    }
+}
